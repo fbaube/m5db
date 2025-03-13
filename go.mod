@@ -1,6 +1,7 @@
 module github.com/fbaube/m5db
 
 go 1.22.2
+toolchain go1.23.7
 
 require (
 	github.com/fbaube/contentanalysis v0.0.0-20240327145624-e50cebd6ca74
@@ -26,8 +27,8 @@ require (
 	github.com/mattn/go-sqlite3 v1.14.22 // indirect
 	github.com/mgutz/str v1.2.0 // indirect
 	golang.org/x/exp v0.0.0-20240404231335-c0f41cb1a7a0 // indirect
-	golang.org/x/net v0.24.0 // indirect
-	golang.org/x/sys v0.19.0 // indirect
+	golang.org/x/net v0.36.0 // indirect
+	golang.org/x/sys v0.30.0 // indirect
 	golang.org/x/tools v0.20.0 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 )
